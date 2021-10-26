@@ -1,1 +1,2 @@
-# laravel-package-hello-world
+# Laravel Package Hello World
+
