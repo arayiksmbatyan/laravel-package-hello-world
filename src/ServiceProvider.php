@@ -14,7 +14,7 @@ class ServiceProvider extends BaseServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/hello_world.php' => config_path('hello_world.php'),
+            __DIR__.'/../configs/hello_world.php' => config_path('hello_world.php'),
         ]);
     }
 
@@ -26,7 +26,7 @@ class ServiceProvider extends BaseServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/hello_world.php', 'hello_world'
+            __DIR__.'/../configs/hello_world.php', 'hello_world'
         );
 
         $this->app->bind(HelloWorldService::class);
