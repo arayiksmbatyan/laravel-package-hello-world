@@ -4,6 +4,9 @@ namespace HelloWorld;
 
 class HelloWorldService
 {
+    /**
+     * @param array $params
+     */
     public function print(array $params = [])
     {
         $configs = config('hello_world');
