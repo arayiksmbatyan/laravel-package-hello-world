@@ -6,6 +6,8 @@ class HelloWorldService
 {
     /**
      * @param array $params
+     * 
+     * @return string
      */
     public function print(array $params = [])
     {
