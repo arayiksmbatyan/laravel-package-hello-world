@@ -1,0 +1,3 @@
+<?php
+
+\HelloWorld\HelloWorldService::print();
